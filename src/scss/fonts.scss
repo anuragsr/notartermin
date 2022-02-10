@@ -1,0 +1,29 @@
+// $ex-r: 'exo-r';
+// @font-face {
+//   font-family: $ex-r;
+//   src: url(../fonts/Exo-Regular.otf) format('opentype');
+// }
+
+$ex-m: 'exo-m';
+@font-face {
+  font-family: $ex-m;
+  src: url(../fonts/Exo-Medium.ttf) format('truetype');
+}
+
+$ex-sb: 'exo-sb';
+@font-face {
+  font-family: $ex-sb;
+  src: url(../fonts/Exo-SemiBold.ttf) format('truetype');
+}
+
+$m-p: 'mark-p';
+@font-face {
+  font-family: $m-p;
+  src: url('../fonts/Mark Pro.ttf') format('truetype');
+}
+
+$m-pb: 'mark-pb';
+@font-face {
+  font-family: $m-pb;
+  src: url('../fonts/Mark Pro Bold.ttf') format('truetype');
+}
