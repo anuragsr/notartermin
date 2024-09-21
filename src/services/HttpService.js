@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 // Choose an env -> ["local", "eca", "prod"]
-const env = process.env.REACT_APP_ENV_TYPE
-// const env = 'eca'
+// const env = process.env.REACT_APP_ENV_TYPE
+const env = 'local'
 
 let apiHost, call
 

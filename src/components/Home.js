@@ -32,31 +32,31 @@ const Home = ({ isCurrent, isPrev, navigation }) => {
             <div className="col-md-4 col-6 mb-4">
               <div className="box">
                 <img src="assets/img/icon-2.jpg" alt=""/>
-                <span>Familienrecht</span>
+                <span>Öffentlichesrecht</span>
               </div>
             </div>
             <div className="col-md-4 col-6 mb-4">
               <div className="box">
                 <img src="assets/img/icon-box.jpg" alt=""/>
-                <span>Familienrecht</span>
+                <span>Verfassungsrecht</span>
               </div>
             </div>
             <div className="col-md-4 col-6 mb-4">
               <div className="box">
                 <img src="assets/img/icon-2.jpg" alt=""/>
-                <span>Familienrecht</span>
+                <span>Verwaltungsrecht</span>
               </div>
             </div>
             <div className="col-md-4 col-6 mb-4">
               <div className="box">
                 <img src="assets/img/icon-box.jpg" alt=""/>
-                <span>Familienrecht</span>
+                <span>Zivilrecht</span>
               </div>
             </div>
             <div className="col-md-4 col-6 mb-4">
               <div className="box">
                 <img src="assets/img/icon-2.jpg" alt=""/>
-                <span>Familienrecht</span>
+                <span>Strafrecht</span>
               </div>
             </div>
           </div>        
@@ -115,17 +115,6 @@ const Home = ({ isCurrent, isPrev, navigation }) => {
           </div>
           <div className="row links text-center">
             <div className="col-md-8 col-12">
-              <div className="row my-4">
-                <div className="col-4">
-                  <a href="#">Kontakt</a>
-                </div>
-                <div className="col-4">
-                  <a href="#">Impressum</a>
-                </div>
-                <div className="col-4">
-                  <a href="#">Team</a>
-                </div>
-              </div>
               <div className="row my-4">
                 <div className="col-4">
                   <a href="#">Kontakt</a>

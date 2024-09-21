@@ -112,6 +112,8 @@ button.btn-cta{
 
   // Same as before
   &.current{
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
     right: 0;
     opacity: 1;
     z-index: 1;
@@ -236,6 +238,7 @@ button.btn-cta{
       height: 65%;
       background: url(../img/18.jpg) no-repeat center;
       background-size: cover;
+      background-position: 50% 100%;
       .ctn-title{
         @extend %fw;
         @include pa("", 0, 0, "");
@@ -264,8 +267,10 @@ button.btn-cta{
           @extend %j-c;
           flex-direction: column;
           height: 220px;
+          background: #fff;
           border-radius: 12px;
-          border: solid 1.5px  rgba(19, 73, 112, .08);
+          // border: solid 1.5px  rgba(19, 73, 112, .08);
+          box-shadow: 0 0 10px 1px rgba(19, 73, 112, .1);
           @include media("<=mob"){ 
             height: 150px; 
             // width: 150px;
@@ -290,6 +295,7 @@ button.btn-cta{
     }
     .section2{
       .ctn-steps{
+        background-position: 50% 100%;
         justify-content: center;
         .row{
           margin-bottom: 25px;
